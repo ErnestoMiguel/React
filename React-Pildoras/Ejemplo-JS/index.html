@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejemplo-JS-Pildoras</title>
+</head>
+<body>
+    <h1>Galeria de Imagenes</h1>
+    <div>
+        <input type="text" id="urlImagen" placeholder="Introduce la url">
+        <input type="text" id="pieDeFoto" placeholder="Introduce un pie de foto">
+        <button onclick=agregaImagen()>Añadir Imagen</button>
+    </div>
+    <div id="contenedor-imagenes">
+        <figure>
+            <img class="imagen-mia" src="../../Imagenes/cejas.jpg" alt="foto de cejas">
+            <figcaption class="fig">Foto de Cejas</figcaption>
+        </figure>
+        <figure>
+            <img class="imagen-mia" src="../../Imagenes/podologia.jpg" alt="foto de podologia">
+            <figcaption class="fig">Foto de Cejas</figcaption>
+        </figure> 
+        <figure>
+            <img class="imagen-mia" src="../../Imagenes/pedicura.jpg" alt="foto de pedicura">
+            <figcaption class="fig">Foto de Cejas</figcaption>
+        </figure>
+        <figure>
+            <img class="imagen-mia" src="../../Imagenes/faciales.jpg" alt="foto de faciales">
+            <figcaption class="fig">Foto de Cejas</figcaption>
+        </figure> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
